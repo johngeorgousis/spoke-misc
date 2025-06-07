@@ -1,0 +1,24 @@
+// spoke-dm workspace file
+{
+    "folders": [
+        {
+            "path": ".." // include all files in the current directory
+        }
+    ],
+    "settings": {
+        // You can also add workspace-specific settings here, e.g.:
+        // "editor.tabSize": 2,
+        // "files.exclude": {
+        //     "**/node_modules": true
+        // }
+    },
+    "extensions": {                         // list current extensions: code --list-extensions
+        "recommendations": [
+            "ms-python.python",
+            "ms-toolsai.jupyter"
+        ],
+        "unwantedRecommendations": [
+            // List extensions you specifically DON'T want recommended for this workspace
+        ]
+    }
+}
